@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Weather App</title>
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+
+<h2>{{>header}}</h2>
+
+  <dev class="app-wrap">
+   
+    <main>
+      <header>
+        <form id="form1">
+            <input type="text" id="address" placeholder="Search for a city..." />
+    <button  class="button">Check</button>
+        </form>
+      </header>
+      <section class="location">
+        <p id="city" class="city"><p/>
+                <p id="long" class="lonlat"> </p>
+                <p id="lat" class="lonlat"><p/>
+      </section>
+      <div class="current">
+        <p id="temp" class="temp"></p>
+        <div class="weather">
+          <p id="weather"></p>
+        </div>
+      </div>
+          
+    </main>
+  </dev>
+  <script src="js/script.js"></script>
+</body>
+</html>
